@@ -1,0 +1,49 @@
+import random
+name = "The Foolish One"
+question = "Will I love my Christmas Presents"
+answer = """
+"""
+random_number = random.randint(1,15)
+#print(random_number)
+
+if random_number == 1:
+  answer = "Yes - definitely."
+elif random_number == 2:
+  answer = "It is decidedly so."
+elif random_number == 3:
+  answer = "Without a doubt."
+elif random_number == 4:
+  answer = "Oooh long line, try again later!"
+elif random_number == 5:
+  answer = "idk, Ask me again later."
+elif random_number == 6:
+  answer = "Mmmm. Better not tell you now."
+elif random_number == 7:
+  answer = "My sources say no friend."
+elif random_number == 8:
+  answer = "The outlook isn't so good."
+elif random_number == 9:
+  answer = "Very doubtful"
+elif random_number == 10:
+  answer = "The universe said naw chyle."
+elif random_number == 11:
+  answer = "The truth hurts, then it heals"
+elif random_number == 12:
+  answer = "Breathe. Breathe Again. And Again."
+elif random_number == 13:
+  answer = "No. thank you"
+elif random_number == 14:
+  answer = "The universe screams YESSSSSS"
+elif random_number == 15:
+  answer = "The universe smiles in favor of your request."
+else:
+  answer = "ERROR"
+
+if name == "":
+  print("Question: " +question)
+else:
+   print(name+ " asks: " +question)
+if question == "":
+  print("You're question is BLANK!! You are risking the fabric of reality!!")
+else:
+ print("Magic 8-Ball's answer: " +answer)
